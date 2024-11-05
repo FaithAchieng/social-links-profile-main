@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10px; color: hsl(0, 0%, 100%); }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: hsl(0, 0%, 12%);
+    height: 550px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+}
+.card img{
+    border-radius: 100px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.card li{
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+h5{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-top: -10px;
+}
+p{
+    color:#ccc;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+ul{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-top: 10px !important;
+    width: 280px;
+    margin: 0 auto;
+    border: 2px solid hsl(0, 0%, 20%);
+  background-color:hsl(0, 0%, 20%) ;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+li:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+@media screen  and (max-width:375px) {
+    body{
+        background-color:hsl(0, 0%, 8%);
+    }
+}
